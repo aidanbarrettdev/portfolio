@@ -1,0 +1,115 @@
+:root {
+  --main-color: #ffffff;
+  --hero-color: #2f2525;
+  --contact-color: #ffd901;
+  /* //iygj */
+  --highlight-color: #20d6d8;
+  --highlight-color-two: #4bdedc;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--hero-color);
+}
+
+.hero {
+  background-color: var(--hero-color);
+  color: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+
+  align-items: center;
+
+  position: relative;
+  flex-direction: column;
+}
+.about-section {
+  font-size: 25px;
+  margin: 50px;
+  text-align: center;
+  margin-top: 200px;
+  width: 700px;
+  border-bottom: 1px solid white;
+}
+h1 {
+  font-size: 100px;
+}
+.about-title {
+  width: 150px;
+  color: white;
+  padding: 5px;
+  border-bottom: 1px solid white;
+}
+.section-title {
+  color: black;
+  background-color: var(--contact-color);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  width: 200px;
+  text-align: center;
+  font-size: 25px;
+  height: 30px;
+  left: 50px;
+  border-top-left-radius: 25px;
+}
+.main {
+  background-color: var(--main-color);
+
+  font-size: 30px;
+  padding: 50x;
+  margin: 0px 150px 50px 0px;
+  border-top-right-radius: 200px;
+}
+.main-text {
+  padding: 80px 80px 40px 80px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.contact {
+  background-color: var(--contact-color);
+  margin: 50px 0px 50px 75px;
+  font-size: 30px;
+  border-top-left-radius: 200px;
+  padding: 150px;
+}
+img {
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  transition-duration: 1000ms;
+}
+img:hover {
+  transform: rotateY(-20deg);
+}
+
+.project1,
+.project2,
+.project3 {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.project-btn {
+  margin-left: 20px;
+
+  font-size: 20px;
+
+  background-color: black;
+  color: var(--contact-color);
+  border: 2px solid var(--contact-color);
+}
+.project-btn:hover {
+  background-color: var(--contact-color);
+  color: black;
+  border: 2px solid black;
+}
