@@ -58,7 +58,7 @@ h1 {
 .section-title {
   color: black;
   background-color: var(--contact-color);
-  width: 50px;
+
   height: 50px;
   position: absolute;
   bottom: 0;
@@ -118,7 +118,7 @@ img:hover {
 .project3 {
   display: flex;
 
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 .project-btn {
@@ -137,4 +137,86 @@ img:hover {
 }
 .project-technologies-title {
   border-bottom: 1px solid rgba(0, 0, 0, 0.202);
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-section {
+    font-size: 12px;
+    margin-top: 60px;
+    text-align: center;
+
+    width: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .name {
+    margin-top: 30px;
+  }
+  h1 {
+    font-size: 30px;
+    margin: 10px;
+  }
+
+  .section-title {
+    width: 100px;
+
+    font-size: 12px;
+    height: 15px;
+  }
+  .main {
+    font-size: 10px;
+    padding: 50x;
+    margin: 20px;
+    border-top-right-radius: 100px;
+  }
+  .main-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    padding: 20px;
+  }
+  .main-text h3 {
+    background-color: var(--contact-color);
+  }
+
+  .contact {
+    background-color: var(--contact-color);
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100px;
+    margin: 0;
+    font-size: 20px;
+  }
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+  }
+
+  img {
+    max-width: 150px;
+    height: 150px;
+    padding: 10px;
+  }
+
+  .project1,
+  .project2,
+  .project3 {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .project-btn {
+    margin-left: 10px;
+
+    font-size: 10px;
+  }
 }
