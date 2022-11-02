@@ -15,6 +15,9 @@ body {
   align-items: center;
   background-color: var(--hero-color);
 }
+.a{
+text-decoration: none;
+}
 
 .hero {
   background-color: var(--hero-color);
@@ -88,7 +91,7 @@ h1 {
   background-color: var(--contact-color);
   width: 100%;
   height: 200px;
-  margin: 50px 0px 0px 750px;
+  margin: 50px 0px 0px 350px;
   font-size: 30px;
   border-top-left-radius: 200px;
   padding: 50px;
@@ -146,6 +149,9 @@ img:hover {
     justify-content: center;
     align-items: center;
   }
+  .hero{
+    height: 75vh;
+  }
   .about-section {
     font-size: 12px;
     margin-top: 60px;
@@ -193,11 +199,16 @@ img:hover {
     height: 100px;
     margin: 0;
     font-size: 20px;
+    padding: 20;
   }
   .contact-info {
     display: flex;
     justify-content: center;
-    font-size: 10px;
+    font-size: 12px;
+    align-items: baseline;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
   }
 
   img {
