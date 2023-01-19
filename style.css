@@ -15,8 +15,8 @@ body {
   align-items: center;
   background-color: var(--hero-color);
 }
-.a{
-text-decoration: none;
+.a {
+  text-decoration: none;
 }
 
 .hero {
@@ -150,7 +150,7 @@ img:hover {
     justify-content: center;
     align-items: center;
   }
-  .hero{
+  .hero {
     height: 75vh;
   }
   .about-section {
@@ -220,6 +220,7 @@ img:hover {
   }
 
   .project1,
+  .project0,
   .project2,
   .project3 {
     display: flex;
